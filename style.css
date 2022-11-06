@@ -1,0 +1,42 @@
+body {
+    background-image: url("background5.jpg");
+}
+
+h1 {
+  color: #03387B; 
+  background-color:#ffe4d9; 
+  font-size: 50px;
+}
+
+#showSketch {
+    float: right;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+canvas {
+    border-radius: 20px;
+    border: 5px dashed black ;
+    animation-name: animation1 ;
+    animation-duration: 1.5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1 {
+   from {box-shadow: 1px 1px 38px #546397;}
+   to {box-shadow: 1px 1px 38px pink;}
+}
+
+#score {
+    float:left;
+    margin-left: 5px;
+}
+
+#timer {
+    float:right;
+    margin-right: 5px;
+}
